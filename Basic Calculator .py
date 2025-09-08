@@ -8,7 +8,7 @@ b = float(int(input(str("Enter second number: "))))
 
 #this all are operation used 
 def calculator(a,b):
-    symbol = input("Enter operation (+, -, *, /,//,%): ")
+    symbol = input("Enter operation (+, -, *, /,//,%,**): ")
 
     if symbol == "+":
         print(f"The Sum of {a} and {b} is "+str(a + b))
@@ -22,13 +22,16 @@ def calculator(a,b):
         print(f"The float of {a}  and {b} is "+str(a // b))
     elif symbol == "%":
         print(f"The Mode of {a}  and {b} is "+str(a % b))
+    elif symbol == "**":
+        print(f"The Exponational  of {a}  and {b} is "+str(a**b))
     else:
         print("Invalid Approch, Plese Try Again")
         calculator(a,b)
-#elif,if,else are used for
-
-    # Thank You 
-    #Be The Change 
+ 
 
     
 calculator(a,b)
+#elif,if,else are used for
+
+    # Thank You 
+    #Be The Change
