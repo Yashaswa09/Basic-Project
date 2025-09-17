@@ -26,10 +26,6 @@ while rounds <= 3:
     random_int = random.randint(1, 3)
     rand()
 
-
-
-
-
     if choice==1:
           if random_int == 1:
            print("Tie")
@@ -43,11 +39,6 @@ while rounds <= 3:
           else:
             print("Error")
     
-
-
-
-
-
 
     elif choice==2:
          if random_int == 1:
@@ -63,10 +54,6 @@ while rounds <= 3:
           print("Error")
     
 
-
-
-
-
     elif choice==3:
       if random_int == 1:
         print("Computer Win!")
@@ -81,8 +68,6 @@ while rounds <= 3:
         print("Error")
 
 
-
-
     else:
      print("Error")
 
@@ -95,6 +80,7 @@ print(f"Computer:{computer}")
 print(f"Ties:{tie}")
 
 print("\tThank You Playing ")
+
 
 
 
