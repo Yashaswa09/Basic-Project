@@ -62,13 +62,21 @@ def anime():
                       ______)
                    __________)
                   (____)
-            ---.__(___)3
+            ---.__(___)
         """,
+        # """
+        #         ____
+        #     ---'   _)
+        #           (_________)
+        #            __________)
+        #           (________)
+        #     ---.__(_____)
+        # """,
         """
-                ____
-            ---'   _)
-                  (___)_____
-                   __________)
+                _______
+            ---'   ____)
+                  (_____)
+                  (_____)
                   (____)
             ---.__(___)
         """
@@ -261,7 +269,7 @@ def show_score(username):
 def exit():
     text = "EXITING"
     bar_length = 40
-    loading_speed = 0.03
+    loading_speed = 0.05
     terminal_width = shutil.get_terminal_size().columns
 
     clear_screen()
@@ -379,7 +387,7 @@ def main():
             elif choice == 4:
                 credits()
             elif choice == 5:
-                break
+                break 
 
 
 main()
